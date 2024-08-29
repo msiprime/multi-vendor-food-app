@@ -2,6 +2,7 @@
 library;
 
 export 'package:cached_network_image/cached_network_image.dart';
+export 'package:shadcn_ui/shadcn_ui.dart';
 
 export 'src/colors/app_colors.dart';
 export 'src/constants/constants.dart';

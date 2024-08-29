@@ -2,7 +2,6 @@
 
 import 'package:app_ui/app_ui.dart';
 import 'package:flutter/material.dart';
-import 'package:shadcn_ui/shadcn_ui.dart';
 
 class AppInfoSection extends StatelessWidget {
   const AppInfoSection({
