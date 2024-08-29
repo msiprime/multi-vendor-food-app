@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "392117083627",
+    "project_id": "multi-vendor-food",
+    "storage_bucket": "multi-vendor-food.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392117083627:android:70af30facdce962e580dae",
+        "android_client_info": {
+          "package_name": "com.example.multi_vendor_food_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfQ3sqTtcdThJz_tPTrBTJ3ncfZrdxD1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
