@@ -1,5 +1,7 @@
 import 'package:app_ui/app_ui.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:multi_vendor_food_app/auth/auth.dart';
 import 'package:multi_vendor_food_app/auth/login/login.dart';
 
 class LoginPage extends StatelessWidget {
@@ -31,7 +33,11 @@ class LoginView extends StatelessWidget {
               LoginForm(),
               SizedBox(height: AppSpacing.md),
               Spacer(),
-              LoginFooter(text: 'Sign Up', onTap: () {})
+              LoginFooter(
+                text: 'Sign Up',
+                onTap: () =>
+                    context.read<AuthCubit>().changeAuth(showLogin: false),
+              ),
             ],
           ),
         ),

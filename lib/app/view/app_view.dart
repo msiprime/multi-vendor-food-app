@@ -1,6 +1,6 @@
 import 'package:app_ui/app_ui.dart';
 import 'package:flutter/material.dart';
-import 'package:multi_vendor_food_app/auth/login/login.dart';
+import 'package:multi_vendor_food_app/auth/view/auth_page.dart';
 
 class AppView extends StatelessWidget {
   const AppView({super.key});
@@ -36,7 +36,7 @@ class AppView extends StatelessWidget {
         );
       },
       debugShowCheckedModeBanner: false,
-      home: const LoginPage(),
+      home: const AuthPage(),
     );
   }
 }
