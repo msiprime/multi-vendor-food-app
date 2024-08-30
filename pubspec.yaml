@@ -14,6 +14,8 @@ dependencies:
     path: packages/app_ui
   form_fields:
     path: packages/form_fields
+  firebase_authentication_client:
+    path: packages/authentication_client/firebase_authentication_client
 
   cached_network_image: ^3.4.0
   cupertino_icons: ^1.0.8
