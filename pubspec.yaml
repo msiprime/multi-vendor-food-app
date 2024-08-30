@@ -12,6 +12,9 @@ dependencies:
   # custom dependencies:
   app_ui:
     path: packages/app_ui
+  form_fields:
+    path: packages/form_fields
+
   cached_network_image: ^3.4.0
   cupertino_icons: ^1.0.8
   firebase_core: ^3.4.0
